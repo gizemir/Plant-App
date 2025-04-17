@@ -1,0 +1,50 @@
+Uygulamayı kotlin dilinde jetpack compose ile ve clean architecture olacak şekilde yapmak istiyorum. API'ler daha sonra belirlenecek.
+
+Sayfalarım: 
+1-LogIn: Kullanıcı uygulamaya eposta ve şifre ile girecek.
+
+2-Home Page: Bu sayfanın en başında hava durumu kısmı yer alacak. Bu
+kısımda kısaca hava durumu bilgileri yer alacak. Bu kısıma tıklandığında
+ise "Weather Page" isimli sayfaya yönlendirilerek hava durumu detayları
+gözükecek. Ayrıca home page'in hava durumu sonrası kısmında ise bir
+forum yer alacak. Bu kısımda kullanıcılar fotoğraf ve yorum
+paylaşabilecek. Home Page'deki add butonu ile "Add Post" sayfasına
+yönlendirilecek. Burada kullanıcı fotoğraf yükleyip yorum yazabilecek ve
+diğer kullanıcılar ile paylaşabilecek.
+
+3- Search Plant: bu sayfada bir arama çubuğuna bitki ismi girildiğinde
+belirlediğim api'den bitkiler listelenecek. Listelenen bitkilerden
+herhangi birine tıklandığında "Plant Detail" sayafası açılacak bu
+sayfada bitkinin detayları görünecek.
+
+4-Identfy Plant: bu sayfada fotoğraf yüklemek için bir kısım olacak ve
+bir buton. Butona basıldığında yine belirlenen api'den gelen veri
+doğrultusunda bitki tanımlanacak ve diğer sayfaya geçiş yapılacak. Diğer
+sayfa ise "Identfy Result". bu sayfada fotoğrafı çekilen bitkinin
+tanımlanmasına göre çeşitli bitkiler sıralanacak ve kullanıcı en doğru
+bitkiye tıklayarak diğer sayfaya geçiş yapacak. Diğer sayda bu seçilen
+bitkinin detayları görünecek. Yani "Result Detail". Bu sayfada ise
+seçilen bitkinin deatyları ve bakım özellikleri vs görünecek yine apiden
+gelen verilerle.
+
+5-Detect Disease: Bu sayfada yine fotoğraf yükleme kısmı(hata bitkinin)
+ve bir buton olacak. Fotoğraf yüklendikten sonra butona basılacak ve
+diğer sayfaya geçiş yapılacak. Diğer sayfada "Detect Result" sayfası.
+Burada bitkinin hastalığı tanımlanacak. Gerekirse hastalık hakkında
+bilgiler ve linkler yer alacak.
+
+6-Article: Bu sayfada yine başka bir api'den alınan verilerle tarım
+hakkında haberler listelenecek. Buradaki haberlerden birine
+tıklandığında başka bir sayfada "Article Detail" haberin detayları
+gösterilecek.
+
+7-Favorites: Burada "Result Detail" , "Plant Detail", "Disease Result"
+sayfalarında incelenen ve favori butonuna tıklanarak favorilere eklenen
+bitkilerin, hastalıkların olduğu sayfalar listelenecek. Kullanıcı bu
+sayfaları istediğinde tekrar açıp görüntüleyebilecek
+
+8-History: Bu kısımda daha önce tıklanıp incelenmiş olan bitkiler yer
+alacak.
+
+9- Set Up Profile: Bu kısımda kullanıcı ismini, şifresini vs
+değiştirebilecek.
